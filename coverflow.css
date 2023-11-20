@@ -15,6 +15,7 @@
 	padding: 0;
 	height: 100%;
 	font-size: 50px;
+	
 }
 .frame ul li {
 	float: left;
@@ -70,7 +71,7 @@
 	border-radius: 10px;
 	cursor: pointer;
 	overflow: hidden;
-	background: #fff;
+	background: #816161;
 	box-shadow: inset 0 0 0 1px rgba(0,0,0,.2);
 }
 .pages li:hover {
@@ -127,7 +128,7 @@
 	width: 100%;
 	height: 100%;
 	opacity: 0;
-	background: gray;
+	background: rgb(185, 50, 50);
 	left: 0;
 	top: 0;
 	z-index: -1;
