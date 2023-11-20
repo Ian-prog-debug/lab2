@@ -1,38 +1,14 @@
 body {
-  background: hsla(0, 61%, 42%, 1);
+  background: hsla(298, 61%, 42%, 1);
 
-background: linear-gradient(90deg, hsla(0, 61%, 42%, 1) 0%, hsla(275, 77%, 70%, 1) 10%, hsla(0, 58%, 64%, 1) 100%);
-
-background: -moz-linear-gradient(90deg, hsla(0, 61%, 42%, 1) 0%, hsla(275, 77%, 70%, 1) 10%, hsla(0, 58%, 64%, 1) 100%);
-
-background: -webkit-linear-gradient(90deg, hsla(0, 61%, 42%, 1) 0%, hsla(275, 77%, 70%, 1) 10%, hsla(0, 58%, 64%, 1) 100%);
-
-filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#AC2A2A", endColorstr="#BB77ED", GradientType=1 );
+  background: linear-gradient(90deg, hsla(298, 61%, 42%, 1) 0%, hsla(275, 77%, 70%, 1) 10%, hsla(0, 58%, 64%, 1) 100%);
+  
+  background: -moz-linear-gradient(90deg, hsla(298, 61%, 42%, 1) 0%, hsla(275, 77%, 70%, 1) 10%, hsla(0, 58%, 64%, 1) 100%);
+  
+  background: -webkit-linear-gradient(90deg, hsla(298, 61%, 42%, 1) 0%, hsla(275, 77%, 70%, 1) 10%, hsla(0, 58%, 64%, 1) 100%);
+  
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#A729AB", endColorstr="#BB77ED", GradientType=1 );
 }
-UL.navbar{
-  list-Style-type:none;
-  padding:0;
-  margin:0.5em;
-
-  position:absolute;
-  top:2em;
-  left:1em;
-  width:9em;
-  }
-  h1,h2,h3{
-  font-family:Helvetica,Geneva,Arial,Sunsans-Regular,sans-serif;}
-  UL.navbar li{
-    background:rgb(36, 35, 35);
-    margin:0.5em0;
-    padding:0.5em;
-    border-right:1em solid rgba(90, 76, 76, 0.582)
-    }
-  UL.navbar a{
-    text-decoration:none}
-  a:link{
-    color:black}
-  a:visited{
-    color:black}
 .header {
     overflow: hidden;
     background-color: #c57070;
