@@ -103,7 +103,7 @@ $(document).ready(function() {
 		coverid: 'coverflow1',
 		images: [
 						['passport10.jpg','passport10.jpg', 'Ian Ndungu SCT221-0602/2021'],
-						['LAMBOGINI.jpg', 'LAMBOGINI.jpg','LAMBOGINI'],
+						['Audir8.jpg', 'Audir8.jpg','Audi R8'],
 						['image1.jpeg', 'image1.jpeg', 'Rolls Royce'],
 						['mustang.jpg', 'mustang.jpg', 'Ford Mustang'],
 				]
