@@ -2,7 +2,7 @@ document.getElementsByTagName('html')[0].className += ' ' +
 	("ActiveXObject" in window? 'ie' : 'no-ie')
 
 
-function coverflowimages(options){
+function coverflowimages(options) {
 	if ( !document.getElementById('coverflowoverlay') ){
 		var $overlay = $('<div id="coverflowoverlay" />').appendTo(document.body)
 		var $enlargearea = $('<div id="coverenlargearea" />').appendTo(document.body)
@@ -98,17 +98,15 @@ function coverflowimages(options){
 }
 
 ///////// Initialization code ////////////////
+$(document).ready(function() {
+	coverflowimages({
+		coverid: 'coverflow1',
+		images: [
+						['passport10.jpg','passport10.jpg', 'Ian Ndungu SCT221-0602/2021'],
+						['LAMBOGINI.jpg', 'LAMBOGINI.jpg','LAMBOGINI'],
+						['image1.jpeg', 'image1.jpeg', 'Rolls Royce'],
+						['mustang.jpg', 'mustang.jpg', 'Ford Mustang'],
+				]
+			})				
 
-$(document).ready(function(){
-
-coverflowimages({
-	coverid: 'coverflow1',
-	images: [
-				['AUDI A4.jpeg', 'AUDI A4.jpeg', 'Audi R8 coupe 2013 model Price 17000 usd CIF Mombasa'],
-				['Audi R8 coupe.jpg', 'Audi R8 coupe.jpg', 'Milla Jovovich was born in Ukraine and immigrated with her parents to the United States when she\'s five.'],
-				['DODGE CHALLENGER.jpg', 'DODGE CHALLENGER.jpg', ' Mustang Available'],
-				['MUSTANG.jpg', 'MUSTANG.jpg', 'Hayden Panettiere is a native of New York, and first appeared in a commercial at the age of 11 months.'],
-				['bmw.jpg', 'bmw.jpg', 'Ashley was born in Granada Hills, California. She is the daughter of Naomi Judd, a country music singer and motivational speaker'] // <-- no comma after last image
-			] // <-- no comma after last option
-})
 });
